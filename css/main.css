@@ -450,9 +450,9 @@ ul.sub-menu {
 
 .home-banner-one .banner-content {
     background-image: url(../images/banner1.jpg);
-     background-repeat:no-repeat;
-
-   background-size:cover;
+    background-position: 450px 1px; 
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .home-two #home-banner {
