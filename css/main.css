@@ -445,14 +445,14 @@ ul.sub-menu {
 }
 
 .home-banner-one {
-    background-color: #e4e3e4;
+    background-color: #e0dfe0;
 }
 
 .home-banner-one .banner-content {
-    background-image: url(../images/banner01.jpg); 
-    background-position: -300px -40px;
+    background-image: url(../images/banner01.png); 
+    background-position: -40px 10px;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
 }
 
 .home-two #home-banner {
@@ -814,6 +814,7 @@ ul.sub-menu {
     transition: all 500ms;    
 }
 
+
 .portfolio-item:hover .portfolio-overlay {
     top: 0;
 }
@@ -842,6 +843,58 @@ ul.sub-menu {
 .portfolio-info a:hover {
     color: #bb460d;
 }
+
+.website-item {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.website-overlay {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #78ba54;
+    color: #fff;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;    
+}
+
+
+.website-item:hover .website-overlay {
+    top: 0;
+}
+
+.website-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.website-info h3 {
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.website-info a {
+    font-size: 30px;
+    color: #fff;
+}
+
+.website-info a:hover {
+    color: #bb460d;
+}
+
 
 /*Magnific-popup overwrite CSS*/
 
@@ -1332,7 +1385,8 @@ img.mfp-img {
 }
 
 .personal-info,
-.portfolio {
+.portfolio,
+.website {
     padding-bottom: 25px;
 }
 
@@ -1341,20 +1395,23 @@ img.mfp-img {
 }
 
 .personal-info .address li,
-.portfolio li {
+.portfolio li,
+.website li {
     overflow: hidden;
     line-height: 30px;
 }
 
 .personal-info .address li h5,
-.portfolio li h5 {
+.portfolio li h5,
+.website li h5 {
     float: left;
     margin-top: 5px;
     min-width: 180px;
 }
 
 .personal-info .address li span,
-.portfolio li span {
+.portfolio li span,
+.website li span{
     margin-right: 30px;
 }
 
