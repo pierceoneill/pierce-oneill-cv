@@ -1,6 +1,6 @@
 (function(){
   var endpoint = "https://pierceoneill.ie/blog/wp-json/wp/v2",
-      itemsPerPage = 2,
+      itemsPerPage = 3,
       vm;
 
 

@@ -600,6 +600,7 @@
 	}	
 	#blog-details .entry-post .time {
 		float: none;
+		font-size: 4px;
 		margin-bottom: 10px;
 	}
 	#blog-details .post-content h2 {

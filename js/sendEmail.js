@@ -10,7 +10,7 @@ form.submit(function(event){
   form.find("button").text("Sending...");
   emailjs.sendForm(service_id,template_id,"form")
   	.then(function(){ 
-    	alert("Sent!");
+    	alert("Your email is Sent! I will get back to you within 24 hours. Thank you.");
        form.find("button").text("Send");
     }, function(err) {
        alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
